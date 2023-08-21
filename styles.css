@@ -1,0 +1,85 @@
+body {
+  background-color: #fdffcd;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-number {
+  width: 25px;
+  border: 2px solid rgb(71, 69, 69);
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.user-submit {
+  padding: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  background-color: #e0ffcd;
+  border-radius: 4px;
+  border: 2px solid rgb(71, 69, 69);
+  cursor: pointer;
+}
+
+#copy-input {
+  margin-right: 10px;
+}
+
+#prompt {
+  font-size: 14px;
+  color: rgb(228, 72, 72);
+  text-align: center;
+}
+
+button {
+  padding: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  background-color: #e0ffcd;
+  border-radius: 4px;
+  border: 2px solid rgb(71, 69, 69);
+  cursor: pointer;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+#main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grid-container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 15px solid #ffcab0;
+  border-radius: 12px;
+  background-color: #feffdf;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.column {
+  border: 1px solid #ffcab0;
+  flex: 1;
+}
